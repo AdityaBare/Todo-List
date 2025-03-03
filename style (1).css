@@ -1,0 +1,47 @@
+ body{
+    margin: auto;
+    width: 75%;
+    text-align: center;
+    border: 2px solid wheat;
+        font-family: "Pacifico", serif;
+        font-weight: 400;
+        font-style: normal;
+        
+        position: relative;
+      
+      
+    
+ } 
+button,input{
+    font-family: inherit;
+    background-color: inherit;
+
+}
+ul{
+   display: flex;
+   flex-direction:column ;
+
+}
+li{
+    margin-top: 1rem;
+    text-align: start;
+    box-shadow: 0 0 10px black;
+    position: relative;
+    
+}
+
+.del{
+    border-radius: 0.5rem;
+    
+    position: absolute;
+    right: 1%;
+z-index: 10;
+    
+    
+}
+li:hover{
+    scale: 1.03;
+}
+.del:hover{
+    background-color: gold;
+} 
